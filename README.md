@@ -1,2 +1,2 @@
-# TUMT_Unity_AI2D_B1040454_LINCHIHCHI
- 海院 - 期末人工智慧 2D - B1040454 - 林芷琪
+# kid-operation
+ kid作業
