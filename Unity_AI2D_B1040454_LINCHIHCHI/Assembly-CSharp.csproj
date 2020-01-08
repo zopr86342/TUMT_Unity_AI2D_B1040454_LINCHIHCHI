@@ -76,16 +76,16 @@
     <None Include="Assets\FreePixelMob\ReadMe.txt" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/kid/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/kid/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/kid/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/kid/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/User/Desktop/TUMT_Unity_AI2D_B1040454_LINCHIHCHI/Unity_AI2D_B1040454_LINCHIHCHI/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

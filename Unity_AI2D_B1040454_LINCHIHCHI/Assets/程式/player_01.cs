@@ -41,6 +41,10 @@ public class player_01 : MonoBehaviour {
     private void Update () {
         if (Input.GetKeyDown(KeyCode.A)) Turn(180);
         if (Input.GetKeyDown(KeyCode.D)) Turn(0);
+        if (this.transform.position.y < -6)
+        {
+            final.SetActive(true);
+        }
     }
     private void FixedUpdate()
     {

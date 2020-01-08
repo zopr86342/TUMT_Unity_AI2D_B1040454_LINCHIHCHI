@@ -13,7 +13,7 @@ public class Box : MonoBehaviour {
 
     [Header("對話")]
     public string sayStar = "給我錢我給你好康的";
-    public string saNotComplete = "錢!錢!錢!錢!錢!";
+    public string sayNotComplete = "錢!錢!錢!錢!錢!";
     public string sayComplete = "齁齁齁!感謝你~";
     [Header("對話速度"), Range(0,10)]
     public float sayspeed = 0.5f;
@@ -26,6 +26,8 @@ public class Box : MonoBehaviour {
     public Text textsay;
     public AudioClip soundSay;
     private AudioSource aud;
+    public GameObject final;
+
     #endregion
     private void Start()
     {
@@ -60,12 +62,14 @@ public class Box : MonoBehaviour {
         {
             case state.normal:
                 StartCoroutine(ShowDialog(sayStar));
+                _state++;
                 break;
             case state.NotComplete:
-                StartCoroutine(ShowDialog(saNotComplete));
+                StartCoroutine(ShowDialog(sayNotComplete));
                 break;
             case state.Complete:
                 StartCoroutine(ShowDialog(sayComplete));
+                final.SetActive(true);
                 break;
             
         }
@@ -74,9 +78,9 @@ public class Box : MonoBehaviour {
     {
         textsay.text = "";
 
-        for (int i = 0; i < sayStar.Length; i++)
+        for (int i = 0; i < say.Length; i++)
         {
-            textsay.text += sayStar[i].ToString();
+            textsay.text += say[i].ToString();
 ;            aud.PlayOneShot(soundSay, 5f);
             yield return new WaitForSeconds(sayspeed);
         }
